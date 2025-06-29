@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="phoneGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"></stop>
+      <stop offset="100%" stop-color="#BD34FE"></stop>
+    </linearGradient>
+    <linearGradient id="phoneGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEA83"></stop>
+      <stop offset="50%" stop-color="#FFDD35"></stop>
+      <stop offset="100%" stop-color="#FFA800"></stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone body -->
+  <rect x="6" y="2" width="12" height="20" rx="2" ry="2" fill="url(#phoneGradient1)" stroke="url(#phoneGradient2)" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="7" y="3" width="10" height="16" rx="1" ry="1" fill="url(#phoneGradient2)" opacity="0.3"/>
+  
+  <!-- Home button -->
+  <circle cx="12" cy="20" r="1.5" fill="url(#phoneGradient1)"/>
+  
+  <!-- Speaker -->
+  <rect x="10" y="1" width="4" height="1" rx="0.5" ry="0.5" fill="url(#phoneGradient2)"/>
+</svg>
